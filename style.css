@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto:ital,wght@0,300;0,700;1,100&display=swap');
+
+body {
+    background-color: #e1fcfa;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    background-color: lightseagreen;
+    font-family: Cinzel Decorative, sans-serif;
+}
+
+a {
+    background-color: aqua;
+}
+
+.text-grosso {
+    font-size: xx-large;
+}
+
+.text-normale {
+    font-weight: 400;
+}
+
+#titolo-principale {
+    color: crimson;
+}
+
+h4,
+h5 {
+    color: green;
+}
+
+.titolone {
+    background-color: coral;
+    width: 50%;
+    height: 200px;
+}
+
+.mamma {
+    background-color: chartreuse;
+    width: 50%;
+    height: 50%;
+}
+
+.figlia {
+    width: 50%;
+    min-width: 200px;
+    height: 50px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.primo {
+    background-color: lightblue;
+    padding: 14px;
+}
+
+.secondo {
+    background-color: chocolate;
+    margin: 10px;
+}
+
+.terzo {
+    width: 400px;
+    color: aqua;
+    height: 250px;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px 30px 5px 80px;
+    text-align: center;
+    background-image: url(./assets/spaceship.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.quarto {
+    background-color: cadetblue;
+}
+
+.quinto {
+    background-color: blueviolet;
+}
+
+.quarto,
+.quinto {
+    display: inline;
+    padding: 10px;
+}
